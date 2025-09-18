@@ -18,7 +18,7 @@ export default async function Page() {
       </header>
 
       {/* Gallery */}
-      <section className="max-w-6xl mx-auto p-8 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="max-w-4xl mx-auto p-8 space-y-8">
           {/* <div className="bg-white rounded-xl shadow-md overflow-hidden hover:-translate-y-1 transition">
             <img
               src=""
@@ -37,11 +37,11 @@ export default async function Page() {
             <img
               src={art.url}
               alt={art.name_pic}
-              className="w-full h-48 object-cover"
+              className="w-full h-auto object-cover" 
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{art.name_pic}</h3>
-              <p className="text-sm text-gray-700 mt-2">
+              <p className="text-l text-gray-700 mt-2">
                 {art.description}
               </p>
             </div>
